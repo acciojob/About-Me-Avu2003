@@ -1,1 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.about {
+    margin-bottom: 30px;
+}
+
+.skills {
+    margin-bottom: 30px;
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+}
+
+.skill-bar label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.progress {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #007bff;
+    border-radius: 10px;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
